@@ -10,8 +10,8 @@ export default function About() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           {/* Visual */}
           <Reveal className="relative order-2 lg:order-1">
-            <div className="relative">
-              <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-brand-800 to-brand-600 p-8 shadow-glow">
+            <div className="relative mb-6">
+              <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-brand-800 to-brand-600 px-8 pt-8 pb-20 shadow-glow">
                 <div className="grid grid-cols-2 gap-4">
                   {[
                     { icon: "cap", k: "Education", v: "Global degrees" },
@@ -35,10 +35,10 @@ export default function About() {
                 </div>
               </div>
               {/* floating accent */}
-              <div className="absolute -bottom-6 left-1/2 w-[85%] -translate-x-1/2 rounded-2xl bg-white p-5 shadow-card">
+              <div className="absolute -bottom-5 left-1/2 w-[88%] -translate-x-1/2 rounded-2xl bg-white p-4 shadow-card">
                 <div className="flex items-center gap-3">
-                  <span className="grid h-12 w-12 shrink-0 place-items-center rounded-xl gradient-brand text-white">
-                    <Icon name="award" className="h-6 w-6" />
+                  <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl gradient-brand text-white">
+                    <Icon name="award" className="h-5 w-5" />
                   </span>
                   <p className="text-sm font-medium text-slate-600">
                     <span className="font-bold text-ink">15+ years</span> helping
